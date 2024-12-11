@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!-- saved from url=(0114)file:///C:/Users/Reza%20Jan/Documents/Rejistration%20infromation%20system/Rejistration%20infromation%20system.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scholarship Registration Form</title>
+    <style>
+        body {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            background-color: #58d64c;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 500px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        form label {
+            display: block;
+            margin-top: 15px;
+            color: #555;
+        }
+        form input, form select, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        form button {
+            margin-top: 20px;
+            padding: 10px 15px;
+            background-color: rgb(54, 69, 211);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #99e246;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Scholarship Registration Form</h2>
+        <form action="file:///C:/submit-scholarship" method="POST" enctype="multipart/form-data">
+            <!-- Basic Information -->
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" name="firstName" required="">
+
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" name="lastName" required="">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required="">
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required="">
+
+            <!-- Personal Details -->
+            <label for="address">Address</label>
+            <textarea id="address" name="address" rows="3" required=""></textarea>
+
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" required="">
+
+            <label for="country">Country</label>
+            <input type="text" id="country" name="country" required="">
+
+            <label for="state">State</label>
+            <input type="text" id="state" name="state" required="">
+
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" required="">
+
+            <label for="province">Province</label>
+            <input type="text" id="province" name="province" required="">
+
+            <!-- Family Information -->
+            <label for="motherName">Mother's Name</label>
+            <input type="text" id="motherName" name="motherName" required="">
+
+            <label for="fatherName">Father's Name</label>
+            <input type="text" id="fatherName" name="fatherName" required="">
+
+            <!-- Identification -->
+            <label for="passportPhoto">Passport Photo</label>
+            <input type="file" id="passportPhoto" name="passportPhoto" accept="image/*" required="">
+
+            <label for="idCard">ID Card</label>
+            <input type="file" id="idCard" name="idCard" accept="image/*" required="">
+
+            <!-- Academic Documents -->
+            <label for="schoolDocument">School Document</label>
+            <input type="file" id="schoolDocument" name="schoolDocument" accept=".pdf,.doc,.docx,.jpg,.png" required="">
+
+            <label for="universityDocument">University Document</label>
+            <input type="file" id="universityDocument" name="universityDocument" accept=".pdf,.doc,.docx,.jpg,.png" required="">
+
+            <label for="otherDocument">Other Document</label>
+            <input type="file" id="otherDocument" name="otherDocument" accept=".pdf,.doc,.docx,.jpg,.png" required="">
+
+            <!-- Additional Information -->
+            <label for="job">Current Job (if any)</label>
+            <input type="text" id="job" name="job">
+
+            <label for="document">Supporting Document</label>
+            <input type="file" id="document" name="document" accept=".pdf,.doc,.docx" required="">
+
+            <!-- Submit -->
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+
+
+</body></html>
